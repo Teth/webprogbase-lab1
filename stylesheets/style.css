@@ -1,0 +1,39 @@
+   li {
+    float:left;
+   }
+   li a{
+     margin: 0 0;
+     padding: 2vh 6vw;
+     background-color: darkseagreen;
+     text-decoration: none;
+     color: black;
+     display: block;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     box-sizing: border-box;
+   }
+   li a.logo{
+     padding: 0.24vh 15.2vw;
+     font-size: 40px;
+     overflow:visible;
+   }
+   li.menu a:hover:not(.active_screen):not(.logo){
+     background-color: rgb(142, 179, 78);
+   }
+   ul.menu {
+     text-align: center; 
+     top: 0;
+     left: 0;
+     float: left;    
+     margin: 0 0;
+     padding: 0;
+     list-style: none;
+     position: fixed;
+     overflow: hidden;
+     width: 100%;
+   }
+   .active_screen{
+     background-color: rgb(170,200,170);
+   }
+   .contents{
+        margin-top: 8vh;
+   }
