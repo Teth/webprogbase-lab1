@@ -9,7 +9,8 @@
         color: black;
         display: block;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 16px
+        font-size: 16px;
+        z-index: 1;
     }
     li a.logo{
         font-size: 39px;
@@ -30,9 +31,10 @@
         margin: 0 0;
         padding: 0;
         list-style: none;
-        /*position: fixed;*/
-        overflow: hidden;
+        position: fixed;
+        overflow: visible;
         width: 100%;
+        z-index: 2;
     }
     .active_screen{
         background-color: gray;
@@ -40,6 +42,10 @@
     .contents{
             margin-top: 8vh;
             height: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .info{
+        margin-left: 50%;
     }
     #menu_div{
         height: 49px;
@@ -48,10 +54,11 @@
         top: 0;
         left: 0;
         background-color: darkgray;
+        z-index: 2;
     }
     body{
             background-color: gray;
-    }
+        }
     #p_about{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 18px;
@@ -60,4 +67,44 @@
         line-height: 1.8;
         margin-left: 15%;
         margin-top: 100px;
+    }
+    #user_table{
+        border: black solid 3px ;
+        border-radius: 1px;
+        width: 70%;
+        margin: auto;
+    }
+    .th_elem{
+        border: azure dotted 1px;
+        border-radius: 1px;
+        padding: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    .th_head{
+        border: azure solid 2px;
+        border-radius: 1px;
+        padding: 6px 50px;
+    }
+    #img_bg{
+        opacity: 0.1;
+        top: 0;
+        left: 0;
+        zoom: 0.8;
+        position: fixed;
+        z-index: 1;
+    }
+    .userinfo{
+        float: right;
+        width: 65%;
+    }
+    img.ava{
+        width: 33%;
+        height: auto;
+        float: left;
+        border: azure 2px solid;
+    }
+    p.lg{
+        font-size: 20px;
     }
