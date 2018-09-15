@@ -1,4 +1,4 @@
-    li {
+    li.menu {
         float:left;
     }
     li a{
@@ -107,4 +107,18 @@
     }
     p.lg{
         font-size: 20px;
+    }
+    #pic_about{
+        opacity: 0.3;
+        border-radius: 10px;
+    }
+    li.event{
+        float: default;
+    }
+    ul.alert{
+        margin-left: 10vw;
+        margin-top: 10vh;
+        border: azure solid 5px;
+        margin-right: 70%;
+        line-height: 30px;
     }
